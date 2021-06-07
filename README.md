@@ -9,7 +9,6 @@ APP ID ve API HASH'ı şuradan alın: [HERE](https://telegram.dog/OtoMyTelegramB
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 <p align="center">
   <a href="https://github.com/BristolMyers/ExelonUserBot/fork">
-    <img src="https://img.shields.io/github/forks/BristolMyers/ExelonUserBot?label=Fork&style=social">
 
   </a>
   <a href="https://github.com/Mehmetbaba06/EfsaneStarBot">
