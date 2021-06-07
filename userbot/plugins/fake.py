@@ -104,5 +104,5 @@ CMD_HELP.update({"fake": "**PLUGİN İSMİ:** `fake`\
       \n\n**📌Komut ➥ **`.prankpromote` şaka yapmak istediğiniz kullanıcıya cevap verin` :\
       \n**Kullanım➥** onu yönetici konumuna yükseltir, ancak herhangi bir işlem yapma izni olmayacak, yani önerme işlemlerini görebilecek ancak herhangi bir yönetici işlemi yapamayacaktır.\
       \n\n**📌Komut➥** `.padmin`\
-      \n**Kullanım ➥ ** Yönetici olduğu için ona tüm izinleri etkinleştirdiğini gösteren bir animasyon (sahte tanıtım).\ "
+      \n**Kullanım ➥ ** Yönetici olduğu için ona tüm izinleri etkinleştirdiğini gösteren bir animasyon (sahte tanıtım).\\ "
                  })

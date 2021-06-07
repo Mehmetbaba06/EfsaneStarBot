@@ -118,5 +118,5 @@ CMD_HELP.update({"button": "**PLUGİN İSMİ:** `button`\
       \n**ÖRNEK ➥ **`.cbutton test [google]<buttonurl:https://www.google.com> [ExelonUserBot]<buttonurl:https://t.me/ExelonUserBot:same> [Exelon Support]<buttonurl:https://t.me/ExelonSupport>` :\
       \n\n**📌Komut ➥ ** `.ibutton`\
       \n**Kullanım ➥ ** Butonlar [Butondaki ad] <buton url: açmak istediğiniz bağlantı biçiminde olmalıdır.\
-      \n**ÖRNEK ➥ **`.ibutton test [google]<buttonurl:https://www.google.com> [ExelonUserBot]<buttonurl:https://t.me/ExelonUserBot:same> [Exelon Support]<buttonurl:https://t.me/ExelonSupport>` :\ "
+      \n**ÖRNEK ➥ **`.ibutton test [google]<buttonurl:https://www.google.com> [ExelonUserBot]<buttonurl:https://t.me/ExelonUserBot:same> [Exelon Support]<buttonurl:https://t.me/ExelonSupport>` :\\ "
                  })
