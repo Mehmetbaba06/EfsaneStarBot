@@ -1,5 +1,5 @@
 
-# EXELON USERBOT
+# EFSANE USERBOT
 
 ### Botu Kurmanın Kolay Yolu
 APP ID ve API HASH'ı şuradan alın: [HERE](https://telegram.dog/OtoMyTelegramBot) ve BOT TOKEN buradan [Bot Father](https://t.me/botfather) ve Ardından Aşağıdaki Butona  Basarak StringSession Alınız. Stringinizi Aldıktan sonra Aşağıda Pembe Heroku Butonuna Basıp Deploy İşlemini Başlatınız
