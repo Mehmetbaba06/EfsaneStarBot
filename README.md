@@ -10,14 +10,12 @@ APP ID ve API HASH'ı şuradan alın: [HERE](https://telegram.dog/OtoMyTelegramB
 <p align="center">
   <a href="https://github.com/BristolMyers/ExelonUserBot/fork">
 
+<img src="https://i.ibb.co/syVTfWb/6d58817f09e15d326fa1807f2a57587c.jpg" alt="6d58817f09e15d326fa1807f2a57587c" border="0"> 
   </a>
   <a href="https://github.com/Mehmetbaba06/EfsaneStarBot">
 
   </a>
 </p>
-
-
-[![exelonserbot logo](https://telegra.ph/file/f846d19602ef8ea3e9e64.jpg)](https://heroku.com/deploy)
 
 
 ### Güncellemeler için [buraya](https://t.me/ExelonUserBot) tartışma ve hatalar için [buraya](https://t.me/ExelonSupport) katılın.
