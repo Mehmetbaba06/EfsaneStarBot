@@ -1,5 +1,5 @@
 {
-  "name": "ExelonUserBot",
+  "name": "EfsaneUserBot",
   "description": "Userbot created by a SNAPDRAGON and custom fork by https://t.me/BristolMyers iletişim @ExelonSupport destek için",
   "logo": "https://i.ibb.co/syVTfWb/6d58817f09e15d326fa1807f2a57587c.jpg",
   "keywords": [
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/BristolMyers/ExelonUserBot",
+  "repository": "https://github.com/Mehmetbaba06/EfsaneStarBot",
   "website": "#TODO",
   "success_url": "#TODO",
   "stack": "container",
