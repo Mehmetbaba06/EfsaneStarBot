@@ -12,8 +12,8 @@ APP ID ve API HASH'ı şuradan alın: [HERE](https://telegram.dog/OtoMyTelegramB
     <img src="https://img.shields.io/github/forks/BristolMyers/ExelonUserBot?label=Fork&style=social">
 
   </a>
-  <a href="https://github.com/BristolMyers/ExelonUserBot">
-    <img src="https://img.shields.io/github/stars/BristolMyers/ExelonUserBot?style=social">
+  <a href="https://github.com/Mehmetbaba06/EfsaneStarBot">
+
   </a>
 </p>
 
