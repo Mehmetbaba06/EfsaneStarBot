@@ -1,9 +1,9 @@
-# Copyright (C) 2020 EfsaneStar 
+# Copyright (C) 2020 EfsaneStar
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-# ExelonUserBot - EfsaneStar 
+# ExelonUserBot - EfsaneStar
 
 import nekos
 import requests
