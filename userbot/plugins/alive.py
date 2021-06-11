@@ -1,9 +1,9 @@
-# Copyright (C) 2020 BristolMyers
+# Copyright (C) 2020 EfsaneStar 
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-# ExelonUserBot - BristolMyers
+# ExelonUserBot - EfsaneStar 
 
 import nekos
 import requests
@@ -32,10 +32,10 @@ async def amireallyalive(alive):
     if alive.reply_to_msg_id:
         reply_to_id = await alive.get_reply_message()
     if EXELON_IMG:
-        exelon_caption = f"__**✮ EXELON BAŞARIYLA ÇALIŞIYOR ✮**__\n\n"
+        exelon_caption = f"__**✮ EFSANE BAŞARIYLA ÇALIŞIYOR ✮**__\n\n"
         exelon_caption += f"**✧ Veri Tabanı :** `{check_sgnirts}`\n"
         exelon_caption += f"**✧ Telethon Sürümü :** `{version.__version__}\n`"
-        exelon_caption += f"**✧ ExelonUserBot Sürümü :** `{exelonversion}`\n"
+        exelon_caption += f"**✧ EfsaneUserBot Sürümü :** `{exelonversion}`\n"
         exelon_caption += f"**✧ Python Sürümü :** `{python_version()}\n`"
         exelon_caption += f"**✧ Çalışma Süresi :** `{uptime}\n`"
         exelon_caption += f"**✧ Benim Ustam :** [{DEFAULTUSER}](tg://user?id={hmm})\n"
@@ -45,7 +45,7 @@ async def amireallyalive(alive):
         await edit_or_reply(alive, f"__**✮ EXELON BAŞARIYLA ÇALIŞIYOR ✮**__\n\n"
                             f"**✧ Veri Tabanı :** `{check_sgnirts}`\n"
                             f"**✧ Telethon Sürümü :** `{version.__version__}\n`"
-                            f"**✧ ExelonUserBot Sürümü :** `{exelonversion}`\n"
+                            f"**✧ EfsaneUserBot Sürümü :** `{exelonversion}`\n"
                             f"**✧ Python Sürümü :** `{python_version()}\n`"
                             f"**✧ Çalışma Süresi :** `{uptime}\n`"
                             f"**✧ Benim Ustam :** [{DEFAULTUSER}](tg://user?id={hmm})\n"
@@ -63,8 +63,8 @@ async def amireallyalive(alive):
         reply_to_id = await alive.get_reply_message()
     hmm = bot.uid
     exelon_caption = f"__**ExelonUserBot Çalışıyor**__\n"
-    exelon_caption += f"**  -Telethon Sürümü :** `{version.__version__}\n`"
-    exelon_caption += f"**  -ExelonUserBot Sürümü :** `{exelonversion}`\n"
+    exelon_caption += f"**  -Efsane Sürümü :** `{version.__version__}\n`"
+    exelon_caption += f"**  -EfsaneUserBot Sürümü :** `{exelonversion}`\n"
     exelon_caption += f"**  -Python Sürümü :** `{python_version()}\n`"
     exelon_caption += f"**  -Benim ustam :** [{DEFAULTUSER}](tg://user?id={hmm})\n"
     results = await bot.inline_query(  # pylint:disable=E0602
@@ -79,8 +79,8 @@ async def amireallyalive(alive):
     await alive.delete()
 
 
-@borg.on(admin_cmd(pattern="exelon$"))
-@borg.on(sudo_cmd(pattern="exelon$", allow_sudo=True))
+@borg.on(admin_cmd(pattern="efsane$"))
+@borg.on(sudo_cmd(pattern="efsane$", allow_sudo=True))
 async def _(event):
     try:
         await event.delete()
@@ -132,6 +132,6 @@ CMD_HELP.update({"alive": "**PLUGİN İSMİ:** `alive`\
       \n**Kullanım ➥ ** botun durumu.\
       \n\n**📌Komut ➥ **`.ialive` :\
       \n**Kullanım ➥ ** Canlı Görünüm Alive\
-      \n\n**📌Komut ➥ ** `.exelon`\
-      \n**Kullanım ➥ **Rastgele exelon çıkartmaları"
+      \n\n**📌Komut ➥ ** `.efsane`\
+      \n**Kullanım ➥ **Rastgele efsane çıkartmaları"
                  })
