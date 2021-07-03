@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-# ExelonUserBot - BristolMyers
+# EfsaneUserBot - KingMehmet06
 
 import asyncio
 from telethon.tl.functions.users import GetFullUserRequest
@@ -19,7 +19,7 @@ async def gbun(event):
     gbunVar = gbunVar[6:]
     mentions = "`Uyarı! Kullanıcı Yönetici Tarafından 𝙂𝘽𝘼𝙉 Yedi...\n`"
     no_reason = "__Neden: Yönetici Öyle İstedi. __"
-    await event.edit("**@ExelonUserBot ❗️⚜️☠️**")
+    await event.edit("**@EfsaneUserBot ❗️⚜️☠️**")
     await asyncio.sleep(3.5)
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
@@ -54,6 +54,6 @@ async def gbun(event):
                 jnl += no_reason
             await reply_message.reply(jnl)
     else:
-        mention = "`Uyarı!! Kullanıcı 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 Yönetici Tarafından...\nNedeni: Admin öyle istedi. `"
+        mention = "`Uyarı!! Kullanıcı 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 Yönetici Tarafından...\nNedeni: Admin öyle istedi Ehehehe. `"
         await event.reply(mention)
     await event.delete()
