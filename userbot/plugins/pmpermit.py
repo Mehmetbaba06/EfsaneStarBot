@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-# ExelonUserBot - BristolMyers
+# ExelonUserBot - EfsaneUserbot
 import io
 import asyncio
 from .sql_helper import pmpermit_sql as pmpermit_sql
@@ -18,8 +18,8 @@ PREV_REPLY_MESSAGE = {}
 CACHE = {}
 PMPERMIT_PIC = Config.PMPERMIT_PIC
 DEFAULTUSER = str(
-    ALIVE_NAME) if ALIVE_NAME else "**Henüz bir isim belirlenmedi nibba, sabitlenmiş mesajı kontrol et** @ExelonUserBot"
-USER_BOT_WARN_ZERO = "`Ustamın gelen kutusuna spam gönderiyordunuz, bundan böyle ustamın Exelonu tarafından engelleniyorsunuz.` **Şimdi Önemli bir işim olabilir** "
+    ALIVE_NAME) if ALIVE_NAME else "**Henüz bir isim belirlenmedi nibba, sabitlenmiş mesajı kontrol et** @EfsaneUserBot"
+USER_BOT_WARN_ZERO = "`Ustamın gelen kutusuna spam gönderiyordunuz, bundan böyle ustamın EfsaneUserbotu tarafından engelleniyorsunuz.` **Şimdi Önemli bir işim olabilir** "
 
 if Var.PRIVATE_GROUP_ID is not None:
     @borg.on(admin_cmd(pattern="approve ?(.*)"))
@@ -127,7 +127,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         message_text.lower()
         USER_BOT_NO_WARN = (
             f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={exelonid})\n\n"
-            "Bu, exelon güvenlik hizmetinden otomatik olarak oluşturulan bir mesajdır\n\n"
+            "Bu, efsane güvenlik hizmetinden otomatik olarak oluşturulan bir mesajdır\n\n"
             f"Merhaba dostum ustam {DEFAULTUSER} henüz sizi onaylamadı. yani ,"
             "Adınızı, nedeninizi ve 10.000 $ 'ı bırakın ve umarım 2 ışıkyılı içinde yanıt alırsınız.\n\n"
             "**Gönder** `/start` ** Böylece ustam neden burada olduğuna karar verebilir.**")
@@ -207,7 +207,7 @@ if Var.PRIVATE_GROUP_ID is not None:
             else:
                 USER_BOT_NO_WARN = (
                     f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={exelonid})\n\n"
-                    "Bu, exelon güvenlik hizmetinden otomatik olarak oluşturulan bir mesajdır\n\n"
+                    "Bu, efsane güvenlik hizmetinden otomatik olarak oluşturulan bir mesajdır\n\n"
                     f"Merhaba dostum ustam {DEFAULTUSER} henüz sizi onaylamadı. yani ,"
                     "Adınızı, nedeninizi ve 10.000 $ 'ı bırakın ve umarım 2 ışıkyılı içinde yanıt alırsınız.\n\n"
                     "**Gönder** `/start` ** Böylece ustam neden burada olduğuna karar verebilir.**")
